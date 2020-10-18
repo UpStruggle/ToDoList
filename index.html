@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <!-- 清除默认样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 这个页面的css样式 -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <!-- 这个页面的js文件 -->
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <ol>
+            <li class="logo">ToDoList</li>
+            <li class="add">
+                <input type="text" placeholder="添加ToDo">
+            </li>
+        </ol>
+    </header>
+    <section>
+        <article class="proceed">
+            <p>0</p>
+            <nav>正在进行</nav>
+            <ul class="proceedLis">
+
+            </ul>
+        </article>
+        <article class="finish">
+            <p>0</p>
+            <nav>已经完成</nav>
+            <ul class="finishLis">
+
+            </ul>
+        </article>
+    </section>
+    <footer>
+        Copyright © 2014 todolist.cn
+    </footer>
+    <div class="hint">
+        请输入一个todo，内容不能为空
+        <span>✘</span>
+    </div>
+</body>
+
+</html>
